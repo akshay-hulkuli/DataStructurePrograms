@@ -1,8 +1,8 @@
 package com.bridgelabz.dsprograms;
 
 import com.bridgelabz.datastructures.*;
-
 import java.util.Scanner;
+
 public class UnOrderedList {
 	
 	private static void searchWord(String[] words, String key) {
@@ -36,6 +36,6 @@ public class UnOrderedList {
 		String key = sc.next();
 		
 		searchWord(words,key);
-		
+		sc.close();
 	}
 }
