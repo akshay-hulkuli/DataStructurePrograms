@@ -98,5 +98,6 @@ public class HashingFunction<K extends Comparable <K>> {
 			System.out.println("the key : "+key+" is not found hence added it to the hashset");
 		}
 		hashSet.display();
+		sc.close();
 	}
 }
