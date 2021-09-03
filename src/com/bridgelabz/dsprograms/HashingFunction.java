@@ -99,5 +99,6 @@ public class HashingFunction<K extends Comparable <K>> {
 		}
 		hashSet.display();
 		sc.close();
+		
 	}
 }
